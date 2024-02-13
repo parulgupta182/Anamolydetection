@@ -8,7 +8,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 
 def feature_extraction():
-    cap = pyshark.FileCapture('/Users/parulgupta/Downloads/Test.pcap')
+    cap = pyshark.FileCapture('Test.pcap')
 
     drn_time=[]
     pkt_length=[]
